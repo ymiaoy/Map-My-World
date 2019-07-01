@@ -1,0 +1,10 @@
+<launch>
+    <!-- the drive_bot node -->
+    <node name="drive_bot" pkg="location" type="drive_bot" output="screen">
+    </node>
+
+
+    <node name="process_image" pkg="location" type="process_images" output="screen">
+    </node>
+
+</launch>
